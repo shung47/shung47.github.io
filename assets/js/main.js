@@ -80,4 +80,14 @@
 
 		}
 
+		
 })(jQuery);
+function likeMeClick(){
+
+	Swal.fire('Thank you!')
+}
+
+function dislikeMeClick(){
+
+	Swal.fire('Are you kidding me!?')
+}

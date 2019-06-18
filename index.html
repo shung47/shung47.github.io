@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.css">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
@@ -28,6 +30,7 @@
 										<ul>
 											<li><a href="index.html">Home</a></li>
 											<li><a href="generic.html">Career Profile</a></li>
+											<li><a href="adventure.html">My advanture</a></li>
 										</ul>
 									</div>
 								</li>
@@ -115,8 +118,10 @@
 								<h2>Tell me what you think</h2>
 							</header>
 							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Like me</a></li>
-								<li><a href="#" class="button fit">Dislike me</a></li>
+								<!--<li><a href="#likeMe" class="button fit primary">Like me</a></li>-->
+								<button onclick="likeMeClick()" type="button" class="button fit primary">Like me</button>
+								<li></li>
+								<button onclick="dislikeMeClick()" type="button" class="button fit">Dislike me</button>
 							</ul>
 						</div>
 					</section>
@@ -145,6 +150,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 	</body>
 </html>

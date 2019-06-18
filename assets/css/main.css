@@ -2076,6 +2076,15 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+	.me-photo{
+		max-width: 50%;
+		height: auto;
+		border-radius: 50%;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		width: 150px;
+	}
 
 		.image img {
 			border-radius: 3px;
@@ -2111,6 +2120,13 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+			}
+			.image .fit .rotate90{
+				-webkit-transform: rotate(90deg);
+    			-moz-transform: rotate(90deg);
+    			-o-transform: rotate(90deg);
+    			-ms-transform: rotate(90deg);
+    			transform: rotate(90deg);
 			}
 
 /* List */
